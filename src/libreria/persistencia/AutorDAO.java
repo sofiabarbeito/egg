@@ -10,6 +10,7 @@ import libreria.entidades.Autor;
 public class AutorDAO {     
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("LIbreriaPU");
     private EntityManager em = emf.createEntityManager();
+    private int atributo;
 
     
     public void guardar(Autor autor) {
