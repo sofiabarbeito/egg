@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import libreria.entidades.Autor;
 
-public class AutorDAO {
+public class AutorDAO {     
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("LIbreriaPU");
     private EntityManager em = emf.createEntityManager();
 
